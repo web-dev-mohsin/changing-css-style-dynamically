@@ -3,3 +3,7 @@ function addStyle(){
     addStyles.classList.add("para-style");
 }
 
+function removeStyle(){
+    var removeStyles = document.getElementById("para");
+    removeStyles.classList.remove("para-style");
+}
